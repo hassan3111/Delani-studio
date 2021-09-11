@@ -17,6 +17,7 @@ text-align: center;
     margin-top: 230px;
     line-height: 150px;
     font-size: 4rem;
+   
 }
 .click{
     margin-top: 202px;
@@ -34,4 +35,26 @@ text-align: center;
 }
 .about{
     text-align: center;
+}
+.grid{
+   display: grid;
+   grid-template-columns: auto auto auto auto;
+   gap: 10px 20px;
+   padding-top: 20px;
+}
+h2{
+    text-align: center;
+    padding-top: 30px;
+}
+.bailey{
+   background-image: url("../../images/assets/portfolio/work8.jpg");
+  
+}
+.bailey h3{
+    color: white;
+    text-align: left;
+    font-size: 2rem;
+    border: 8px white solid;
+    margin: 10px 35px;
+    padding-bottom: 190px;
 }
