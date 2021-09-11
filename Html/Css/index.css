@@ -47,14 +47,26 @@ h2{
     padding-top: 30px;
 }
 .bailey{
-   background-image: url("../../images/assets/portfolio/work8.jpg");
+   /*background-image: url("../../images/assets/portfolio/work8.jpg");*/
+   padding-top: 0px;
+   background-color: rgba(0,0,0,0.5);
+   z-index: 2;
+ 
   
+
 }
 .bailey h3{
     color: white;
     text-align: left;
     font-size: 2rem;
     border: 8px white solid;
-    margin: 10px 35px;
-    padding-bottom: 190px;
+    /*margin: 10px 35px;*/
+    padding: 0px 0px 190px 0px;
+    
+   
+}
+.bailey img, h3{
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+  
 }
