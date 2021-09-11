@@ -46,25 +46,22 @@ h2{
     text-align: center;
     padding-top: 30px;
 }
-.bailey::after{
+.overlay::after{
     content: "";
     width: 100%;
     height: 100%;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0, 0, 0, 0.576);
     position: absolute;
+    top: 0;
+    left: 0;
 }
-.bailey{
+.overlay{
    background-image: url("../../images/assets/portfolio/work8.jpg");
-   padding-top: 0px;
-  
-   z-index: 2;
- 
-  
+   padding: 20vh 0px;
+   position: relative;
+   z-index: 0;
 
 }
-.bailey h3{
-    color: white;
-    text-align: left;
-    font-size: 2rem;
+
+    
    
-}
