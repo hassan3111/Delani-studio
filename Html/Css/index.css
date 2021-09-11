@@ -63,4 +63,8 @@ h2{
     margin: 0px 35px;
    
 }
-  
+.overlay img{
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+ 
+}
