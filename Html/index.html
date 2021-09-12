@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Css/index.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="./js/jquery-3.6.0.js"></script>
     <title>Delani studio</title>
 </head>
 <body>
@@ -29,22 +30,52 @@
         <h2>SERVICES</h2>
         <P>Before e sign a contract or write a line of code our team will spaend the neccessary time needed to understand your product vision <br> The outcome of this scoping session a proposal or high-level statement of work. <br> based on your requirments, we can provide acomplete offering or just the you need. </P>
     </section>
-
-    <section class="toggle">
-     <div class="toggle-1">
-         <img src="../../images/assets/services_icons/design_icon.png" alt="">
+    
+         
+    <div class="container">
+        <h2 id="hide">WHAT WE DO</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div id="design">
+              <h2 class="title">DESIGN</h2>
+              <p>Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.</p>
+                <p>Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</p>
+            </div>
+            <div id="design-image">
+              <img src="../images/assets/services_icons/design_icon.png" alt="design">
+              <p>DESIGN</p>
+            </div>
+          </div>
+        <div class="col-md-4">
+          <div id="development">
+            <h2 class="title">DEVELOPMENT</h2>
+            <p>All engineers are fluent in the latest enterprise, mobile and web development technologies.</p>
+               <p>They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
+          </div>
+          <div id="development-image">
+            <img src="../images/assets/services_icons/dev_icon.png" alt="development">
+            <P>DEVELOPMENT</P>
+          </div>
         </div>
-     <div class="toggle-2">
-         <img src="../../images/assets/services_icons/dev_icon.png" alt="">
-     </div>
-     <div class="toggle-3">
-         <img src="../../images/assets/services_icons/product_icon.png" alt="">
-
-     </div>
-    </section>
-
-    <h2>PORTFOLIO</h2>
-    <div class="grid">
+      
+        <div class="col-md-4">
+          <div id="product">
+            <h2 class="title">PRODUCT MANAGEMENT</h2>
+            <p>All engineers are fluent in the latest enterprise, mobile and web development technologies.</p>
+            <p>They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
+          </div>
+          <div id="product-image">
+            <img src="../images/assets/services_icons/product_icon.png" alt="products">
+            <P>PRODUCT MANAGEMENT</P>
+          </div>
+  
+        </div>
+      </div>
+      </div>
+     <br>
+     <div class="gridy">
+        <h2>PORTFOLIO</h2>
+        <div class="grid">
         <img src="../../images/assets/portfolio/work4.jpg" alt="">
         <img src="../../images/assets/portfolio/work3.jpg" alt="">
         <img src="../../images/assets/portfolio/work2.jpg" alt="">
@@ -58,7 +89,7 @@
             <h3>BAILEY <br> WONGER</h3>
         </div>
     </div>
-
+</div>
     </div>
     <section class="THEM">
         <h2 id="cont">CONTACT US</h2>
@@ -75,8 +106,8 @@
        <div><textarea name="mess" id="mess" cols="30" rows="10" placeholder="Your Message Here..."></textarea></div>
     </form>
     </section>
-    <script src="main.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/jquery-3.6.0.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>   
 </body>
