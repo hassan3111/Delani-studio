@@ -45,6 +45,7 @@ text-align: center;
 h2{
     text-align: center;
     padding-top: 30px;
+    
 }
 .overlay::after{
     content: "";
@@ -79,4 +80,25 @@ h2{
 .bailey h3{
     padding-bottom: 168px;
     margin-top: -120px;
+}
+.last{
+  display: flex;
+  background-image: url("../../images/assets/backgrounds/c_image.jpg");
+  height: 700px;
+  width: 100%;
+}
+#name{
+    margin: 150px 200px;
+}
+#email{
+    margin-top: 150px;
+}
+
+#cont{
+    margin-bottom: -70px;
+    color: white;
+  }
+#mess{
+    margin: 300px -400px 300px -600px;
+    width: 600px;
 }
