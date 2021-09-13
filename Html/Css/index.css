@@ -39,7 +39,7 @@ text-align: center;
 .grid{
    display: grid;
    grid-template-columns: auto auto auto auto;
-   gap: 10px 20px;
+   gap: 10px 5px;
    padding-top: 20px;
 }
 h2{
@@ -102,17 +102,7 @@ h2{
     margin: 300px -400px 300px -600px;
     width: 600px;
 }
-.toggle{
-    display: flex;
-    justify-content: space-between;
-    margin: 150px 0px;
-    padding-right: 120px;
 
-}
-.toggle p{
-    width: 250px;
-
-}
 .container{
     padding-top: 50px;
 }
