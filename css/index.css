@@ -35,7 +35,7 @@ text-align: center;
 }
 .about{
     text-align: center;
-    margin: 10px
+    margin: 20px
 }
 .grid{
    display: grid;
@@ -119,6 +119,10 @@ h2{
     text-align: center;
     font-size: 12px;
     
+}
+.body{
+    word-break: 4px;
+    letter-spacing: 5px;
 }
 .head1{
     font-size: 15px;
