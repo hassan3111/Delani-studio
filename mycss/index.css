@@ -5,7 +5,7 @@
 }
 
 .first{
- background-image: url("../../images/assets/backgrounds/h_img.jpg");
+ background-image: url("../../image/assets/backgrounds/h_img.jpg");
  background-size: cover;
 height: 800px; 
 background-position: center;
@@ -24,7 +24,7 @@ text-align: center;
     height: 160px;
 }
 .lap{
-    background-image: url("../../images/assets/backgrounds/s_image.jpg");
+    background-image: url("../../image/assets/backgrounds/s_image.jpg");
     height: 300px;
     color: white;
     text-align: center;
@@ -58,7 +58,7 @@ h2{
     left: 0;
 }
 .overlay{
-   background-image: url("../../images/assets/portfolio/work8.jpg");
+   background-image: url("../../image/assets/portfolio/work8.jpg");
    background-repeat: no-repeat;
    padding: 20vh 0px;
    position: relative;
@@ -84,7 +84,7 @@ h2{
 }
 .last{
   display: flex;
-  background-image: url("../../images/assets/backgrounds/c_image.jpg");
+  background-image: url("../../image/assets/backgrounds/c_image.jpg");
   height: 700px;
   width: 100%;
 }
